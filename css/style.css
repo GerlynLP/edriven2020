@@ -1,0 +1,13 @@
+body{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.bg{
+    background-color: red;
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+}
