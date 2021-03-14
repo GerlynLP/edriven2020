@@ -1,6 +1,13 @@
 body{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    background-color: #ffffff;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.bg{
+    background-color: red;
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
 }
