@@ -1,32 +1,20 @@
-<!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <title>Event-Driven Programming</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <title>FA3</title>
 </head>
 <body>
-    <h1 id="invalid"></h1>
-    <table id="header">
-        <thead>
-            <tr>
-                <th id="month" colspan="7"></th>
-            </tr>
-            <tr>
-                <th class="bg">Sun</th>
-                <th>Mon</th>
-                <th>Tue</th>
-                <th>Wed</th>
-                <th>Thu</th>
-                <th>Fri</th>
-                <th>Sat</th>
-            </tr>
-        </thead>
-        <tbody id="cal">
-        </tbody>
+    <table id="table">
+        <div><input class="box1" type="number" id="q1" placeholder="Subtotal" min="100" max="10000" value="" oninput="table()"> User input from 100 to 10,000</div>
+        <div><input class="box2" type="text" id="q2" placeholder="Tax" value="" disabled> +12% Tax</div>
+        <div><input class="box3" type="text" id="q3" placeholder="Total" value="" disabled> Subtotal + Tax</div>
+        <div><input class="box4" type="number" id="q4" placeholder="Amount Paid" value="" oninput="payment()" disabled> Minimum is base  on Subtotal + Tax</div>
+        <div><input class="box5" type="text" id="q5" placeholder="Change" value="" disabled> Amount Paid - Total</div>
+        <div><button class="btn1" id="btn2" type="button" style="background-color:maroon;"disabled>Pay</button></div>
     </table>
-    <script type="text/javascript" src="js/my.js"></script>
+    
 </body>
+<script src="/js/my.js"></script>
 </html>

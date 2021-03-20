@@ -1,13 +1,19 @@
-body{
-   font-family: 'Courier New', Courier, monospace;
-}
+  
+input{
+    text-align: right;
+    border-radius: 3px;
+  }
 
-.bg{
-    background-color: red;
-}
-
-td,th{
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px 20px;
-}
+  table{
+    margin-top: 50%;
+  }
+  
+  button{
+    border-radius: 3px;
+  }
+  
+  div{
+    padding-bottom: 5px;
+    padding-left: 40%;
+  }
+  
